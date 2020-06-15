@@ -156,10 +156,11 @@ $(document).ready(function () {
 
   $("#random").on("click", function () {
     Swal.fire({
-      title: '<h2 style="color:chartreuse">RANDOMIZED!</h2>',
+      title: '<br>',
       width: 500,
       padding: '3em',
       background: '#fff url("https://media.giphy.com/media/i1hiQy3uVZ0KQ/source.gif")',
+      button: 'NICE'
     });
     randomMovie();
     $(".wrapperTwo").show();
